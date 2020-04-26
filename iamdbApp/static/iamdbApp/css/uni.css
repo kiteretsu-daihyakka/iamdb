@@ -1,0 +1,9 @@
+body{
+    background-color:black;
+}
+a{
+    color:green;
+}
+a:hover{
+    text-decoration:underline;
+}

@@ -1,0 +1,38 @@
+
+.scndStage{
+    /*display:none;*/
+}
+input{
+    position:relative;
+}
+#nxtBtn{
+    position:relative;
+}
+/*
+input{
+    animation-name:slide;
+    position:relative;
+    animation-duration:0.75s;
+    */
+/*animation-direction:normal;*//*
+
+}
+@keyframes slide{
+ */
+/*   0% {margin-left:310px;}
+    25% {margin-left:100px;}
+    50% {margin-left:0px;}
+    75% {margin-left:-100px;}*//*
+
+    */
+/*25% {margin-left:-50px;}*//*
+
+    */
+/*25% {background-color:green;}*//*
+
+    */
+/*50% {background-color:blue;}*//*
+
+   from {left:0;}
+   to {left:-910px;}
+}*/

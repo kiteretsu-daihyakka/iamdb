@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logout First</title>
+    {% load static %}
+    <link href="{% static 'iamdbApp/css/uni.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body style="text-align:center;">
+    <header>
+        {% include 'iamdbApp/header.html' %}
+    </header>
+    <p style="color:black;font-size:30px;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>You are already logged in!
+        <br> <a href="{% url 'authApp:logout' %}">click here to logout</a></p>
+</body>
+</html>

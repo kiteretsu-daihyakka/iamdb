@@ -1,0 +1,40 @@
+.loginTbl{
+    padding-top:80px;
+    width:300px;
+    /*border:1px solid black;*/
+    margin-left:auto;
+    margin-right:auto;
+    font-size:20px;
+    color:white;
+}
+.loginTbl tr{
+    height:50px;
+}
+.loginTbl tr td input{
+    width:500px;
+    height:60px;
+    border:none;
+    border-bottom:1px solid black;
+    outline:none;
+    background-color:white;
+    font-size:30px;
+    font-family:Ebrima;
+}
+.sbmtBtn{
+    height:40px;
+    width:120px;
+    float:right;
+    font-size:20px;
+    background-color:limegreen;
+    border:none;
+    border-radius:28px;
+    cursor:pointer;
+    font-family:Ebrima;
+}
+.loginTbl a{
+    color:green;
+    text-decoration:none;
+}
+.loginTbl label{
+    display:none;
+}
